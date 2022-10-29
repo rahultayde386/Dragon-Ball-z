@@ -1,0 +1,137 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header img {
+  display: flex;
+  justify-content: start;
+  height: 300px;
+  width: 100%;
+}
+
+section {
+  display: flex;
+  /* flex-wrap: wrap; */
+  gap: 10px;
+  box-sizing: border-box;
+  background-color: blueviolet;
+  padding: 20px;
+}
+
+.goku-div {
+  /* background-color: red; */
+  /* margin: 20px 0 0 0; */
+}
+
+.goku {
+  height: 290px;
+  width: 100%;
+}
+
+article h1 {
+  display: block;
+}
+
+.vegita {
+  height: 290px;
+  width: 100%;
+}
+
+.piclo {
+  height: 290px;
+  width: 100%;
+}
+
+.container {
+  width: 33.33%;
+}
+
+footer {
+  display: flex;
+  height: 300px;
+}
+
+.footer {
+  width: 100%;
+  height: 100px;
+}
+
+footer img {
+  width: 100%;
+  height: 300px;
+}
+
+form {
+  background-color: rgb(93, 26, 202);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border: 2px solid black;
+}
+
+form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.names {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px;
+}
+
+.w2 {
+  width: 49%;
+}
+
+.name-input {
+  width: 100%;
+  padding: 10px;
+}
+
+.names input {
+  padding: 10px;
+}
+
+.w-1 {
+  width: 100%;
+  padding: 20px;
+}
+
+.name-inputs {
+  width: 100px;
+}
+
+select {
+  width: 100%;
+  padding: 10px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-between;
+}
+
+.chotya {
+  text-align: center;
+}
+
+input[type="submit"] {
+  padding: 10px 20px;
+  border-radius: 10px;
+}
+
+@media screen and (max-width: 768px) {
+  section {
+    flex-direction: column;
+  }
+
+  .container {
+    width: 100%;
+  }
+}
